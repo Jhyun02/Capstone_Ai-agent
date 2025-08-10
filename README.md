@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 AI Experiments Suite
 
 [![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/Streamlit-1.25.0-orange.svg)](https://streamlit.io/) [![GitHub Issues](https://img.shields.io/github/issues/vivekpathania/ai-experiments)](https://github.com/vivekpathania/ai-experiments/issues)
@@ -144,3 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
+=======
+# Capstone_Ai-agent
+AI Agent for Capstone Project 
+>>>>>>> cebe5f968bf9ccf678d81299cf290450a209d300
