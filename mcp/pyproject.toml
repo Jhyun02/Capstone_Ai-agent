@@ -1,0 +1,38 @@
+[project]
+name = "mcp-sql-server"
+version = "0.1.0"
+description = "A read-only MCP server for interacting with MySQL databases."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Vivek Pathania", email = "vickypathania@gmail.com" } 
+]
+license = { file = "LICENSE" } 
+keywords = ["mcp", "sql", "mysql", "database", "llm", "server"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "psycopg2-binary>=2.9.10",
+    "pymysql>=1.1.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vivekpathania/ai-experiments/tree/main/mcp"  # Replace with your repo URL
+"Bug Tracker" = "https://github.com/vivekpathania/ai-experiments/issues" # Replace with your repo URL
+
+[project.scripts]
+mcp-sql-server = "mcp_sql_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["pyright>=1.1.389", "ruff>=0.7.3", "pytest>=8.0.0"]
