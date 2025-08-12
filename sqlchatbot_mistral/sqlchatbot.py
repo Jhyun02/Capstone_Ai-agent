@@ -21,7 +21,7 @@ st.set_page_config(
 )
 load_dotenv()
 # Initialize database connection using environment variables
-db_uri = os.getenv("DB_URI")
+db_uri = "sqlite:///sample.db"
 
 db = SQLDatabase.from_uri(db_uri)
 
